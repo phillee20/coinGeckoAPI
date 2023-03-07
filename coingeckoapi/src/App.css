@@ -1,17 +1,39 @@
 .App {
   text-align: center;
   background-color: #28a745;
-  
+  border: 1px solid #ddd;
+  padding: 1rem 1rem 1rem 1rem;
+
+ 
 }
+  
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-.coinList{
-  flex-direction: right;
+.coinlist{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #95fbc3;
+  border: 2px solid #95fbc3;
+  padding: 5px;
+  margin: 10px 0;
+  list-style-type: none;
 }
+
+.button {
+  background-color:aliceblue;
+  border:3rem;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 16px;
+  padding: 0.2em;
+
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {

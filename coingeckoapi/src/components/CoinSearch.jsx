@@ -16,9 +16,12 @@ function CoinSearch({ setSearchTerm }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="search">Here are some coins</label>
+      <label htmlFor="search">Search for a Coin: </label>
       <input id="search" value={newSearchTerm} onChange={handleChange} />
-      <button type="submit">Search</button>
+      <br></br>
+      <button className="button" type="submit">
+        Search
+      </button>
     </form>
   );
 }
