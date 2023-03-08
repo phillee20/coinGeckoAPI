@@ -33,7 +33,7 @@ function CoinList({ searchTerm }) {
         {coins.map((coin) => {
           return (
             <li className="coinlist" key={coin.id}>
-              <h3>Coin: {coin.name}</h3>
+              <h3>{coin.name}</h3>
               <h4>Market Cap Rank: {coin.market_cap_rank}</h4>
               <h4>Symbol: {coin.symbol} </h4>
             </li>
